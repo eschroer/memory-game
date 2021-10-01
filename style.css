@@ -15,10 +15,10 @@ body {
 
 section { 
     display: grid;
-    grid-template-columns: repeat(4,12rem);
-    grid-template-rows: repeat(4,12rem);
-    grid-row-gap: 4rem;
-    grid-column-gap: 2rem;
+    grid-template-columns: repeat(5,8rem);
+    grid-template-rows: repeat(3,8rem);
+    grid-row-gap: 3rem;
+    grid-column-gap: 1rem;
     perspective: 800px;
 
 }
@@ -32,7 +32,7 @@ section {
 }
  
 .back {
-    background-image: url("./images/backside.png");
+    
     height: 100%;
     position: absolute;
     background: white;
