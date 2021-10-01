@@ -32,10 +32,8 @@ section {
 }
  
 .back {
-    
-    height: 100%;
     position: absolute;
-    background: white;
+    background-image: url("./images/cardback.webp");
     backface-visibility: hidden;
 
 }
